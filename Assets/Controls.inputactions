@@ -67,6 +67,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Block",
+                    "type": "Button",
+                    "id": "0c067ef6-1bbe-4f1f-8ef8-770f5aabda48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -320,6 +329,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "307a1fbd-cab5-4b89-b830-f99de3d68cfb",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse & Keyboard",
+                    "action": "Block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b3b2f60-1466-4296-a945-4edca8dfa048",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Block",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

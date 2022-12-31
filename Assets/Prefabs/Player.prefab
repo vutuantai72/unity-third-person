@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 269251171875187314}
   - component: {fileID: 1904168434709821929}
   - component: {fileID: 154128034448671780}
-  m_Layer: 0
+  - component: {fileID: 5660195553830190049}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -76,9 +77,13 @@ MonoBehaviour:
   <ForceReceiver>k__BackingField: {fileID: 269251171875187314}
   <Weapon>k__BackingField: {fileID: 4441027052916475845}
   <Health>k__BackingField: {fileID: 154128034448671780}
+  <Ragdoll>k__BackingField: {fileID: 5660195553830190049}
   <FreeLookMovementSpeed>k__BackingField: 6
   <TargetingMovementSpeed>k__BackingField: 5
   <RotationDamping>k__BackingField: 10
+  <DodgeDuration>k__BackingField: 0.6
+  <DodgeLength>k__BackingField: 3
+  <JumpForce>k__BackingField: 4
   <Attacks>k__BackingField:
   - <AnimationName>k__BackingField: Attack1
     <TransitionDuration>k__BackingField: 0.1
@@ -183,6 +188,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+--- !u!114 &5660195553830190049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371390509962303021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ded52996da2c944aaa14abcdacf073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7785910655922245146}
+  controller: {fileID: 4935575378090387466}
 --- !u!1 &496267863798117750
 GameObject:
   m_ObjectHideFlags: 0
